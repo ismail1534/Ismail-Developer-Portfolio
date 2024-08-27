@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ismail-Developer Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/utility.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header id="top">
+      <nav>
+        <div class="left">Ismail's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="up" id="scroll">
+        <img width="24" src="images/up.svg" alt="" />
+      </div>
+      <section class="first" id="home">
+        <div class="leftSection">
+          Hi, my name is <span class="purple">Ismail</span>
+          <div>and I'm a passionate</div>
+          <span class="purple" id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="images/profile.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="second" id="about">
+        <div class="left">
+          <h1>About Me</h1>
+          <p>
+            Hi there! I'm a web developer with a passion for turning ideas into
+            interactive, user-friendly websites.<br /><br />I specialize in
+            creating
+            <span class="purple bold">Clean and Responsive</span> designs that
+            not only look great but also provide a seamless experience for
+            users. My approach is all about understanding your
+            <span class="purple bold">Vision</span> and translating it into a
+            site that truly represents your brand.<br /><br />Let’s collaborate
+            to make your online presence stand out!
+          </p>
+        </div>
+        <div class="right">
+          <h1>Skills</h1>
+          <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Javascript</span>
+            <span>Tailwind CSS</span>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="third sections" id="services">
+        <div class="thirdMain">
+          <h1>Services</h1>
+          <span class="sub purple">I bring Ideas to Reality!</span>
+          <div class="services">
+            <div class="card">
+              <img src="images/website.svg" alt="" />
+              <h4>Website Development</h4>
+              <span>Basic Web development using HTML, CSS and Javascript.</span>
+            </div>
+            <div class="card">
+              <img src="images/website.svg" alt="" />
+              <h4>Website Development</h4>
+              <span>Basic Web development using HTML, CSS and Javascript.</span>
+            </div>
+            <div class="card">
+              <img src="images/website.svg" alt="" />
+              <h4>Website Development</h4>
+              <span>Basic Web development using HTML, CSS and Javascript.</span>
+            </div>
+            <div class="card">
+              <img src="images/website.svg" alt="" />
+              <h4>Website Development</h4>
+              <span>Basic Web development using HTML, CSS and Javascript.</span>
+            </div>
+            <div class="card">
+              <img src="images/website.svg" alt="" />
+              <h4>Website Development</h4>
+              <span>Basic Web development using HTML, CSS and Javascript.</span>
+            </div>
+            <div class="card">
+              <img src="images/website.svg" alt="" />
+              <h4>Website Development</h4>
+              <span>Basic Web development using HTML, CSS and Javascript.</span>
+            </div>
+            <div class="card">
+              <img src="images/website.svg" alt="" />
+              <h4>Website Development</h4>
+              <span>Basic Web development using HTML, CSS and Javascript.</span>
+            </div>
+            <div class="card">
+              <img src="images/website.svg" alt="" />
+              <h4>Website Development</h4>
+              <span>Basic Web development using HTML, CSS and Javascript.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="fourth sections" id="projects">
+        <h1>Projects and Work Experience</h1>
+      </section>
+      <hr />
+    </main>
+    <footer id="contact">
+      <div class="contact-container">
+        <form
+          action="https://api.web3forms.com/submit"
+          method="POST"
+          class="contact-left"
+        >
+          <div class="contact-left-title">
+            <h2>Get in Touch</h2>
+            <hr />
+          </div>
+          <input
+            type="hidden"
+            name="access_key"
+            value="e79ba226-1336-476b-a5b3-b8f793d5282a"
+          />
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            class="contact-inputs"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            class="contact-inputs"
+          />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            class="contact-inputs"
+          ></textarea>
+          <button type="submit">
+            Submit <img src="images/arrow_icon.png" alt="" />
+          </button>
+        </form>
+      </div>
+
+      <hr />
+      <div class="cr">
+        <span class="footer-span">©Ismail 2024 - All Rights Reserved.</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer."],
+        typeSpeed: 70,
+      });
+    </script>
+  </body>
+</html>
